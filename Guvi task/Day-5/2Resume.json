@@ -1,0 +1,43 @@
+{
+    "basics": {
+      "name": "Aravind R ",
+       "email": "aravindofficial28@gmail.com",
+      "phone": "9566344138.",
+      "degree": "B.E.",
+      "location": {
+        "address": "No.266 New Sampath Nagar",
+        "postalCode": "602021",
+        "city": "Thiruvallur",
+        "countryCode": "India",
+        "region": "TamilNadu"
+      },
+    },
+    "education": [
+      {
+        "institution": "St'Peters instutite of higher education and research",
+        "area": "Chennai",
+        "studyType": "Full Time",
+        "startDate": "2016-06-01",
+        "endDate": "2020-06-01",
+        "gpa": "75%",
+        "courses": [
+          "Aeronautical Engineering"
+        ]
+      }
+    ],
+    "skills": [
+      {
+        "name": "MERN Developer",
+        "level": "Professional",
+        "keywords": [
+          "Java, C++, etc"
+        ]
+      }
+    ],
+    "languages": [
+      {
+        "language": "English,Tamil"
+        "fluency": "Professional"
+      }
+    ],
+}

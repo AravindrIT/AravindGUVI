@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <title>XMLHttpRequest Example</title>
+  </head>
+  <body>
+    <script>
+    //your JS code goes here
+    class Person{
+    constructor(name,age,desegnition,email,phn,address,pincode){
+        this.name=name;
+        this.age=age;
+        this.desegnition=desegnition;
+        this.email=email;
+        this.phn=phn;
+        this.address=address;
+        this.pincode=pincode;
+    }
+    toString(){
+        return `Details:-
+               Name:${this.name}
+               Age:${this.age}
+               Desgnition:${this.desegnition}
+               E-mail:${this.email}
+               Phone:${this.phn}
+               Address:${this.address}
+               Pincode:${this.pincode}`
+    }
+}
+p=new Person("Aravind R",24,"MERN Stack Developer","aravindsmash2805@gmail.com",9566344138,"No.266,newSampathNagar,Ikkadu,Thiruvallur","602021");
+console.log(p.toString());
+    </script>
+  </body>
+</html>

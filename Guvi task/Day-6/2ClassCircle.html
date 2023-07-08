@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <title>XMLHttpRequest Example</title>
+  </head>
+  <body>
+    <script>
+    //your JS code goes here
+    class Circle{
+        setRadius(radius){
+      this.radius=radius;
+    }
+    getRadius(){
+    return `radius=${this.radius}`;
+    }
+        setColor(color){
+    this.color=color;
+  }
+      getColor(){
+      return `color=${this.color}`;
+    }
+      toString(){
+      return `circle[radius=${this.radius},color=${this.color}]`;
+    }
+      getArea(){
+      return (3.14)*(this.radius*this.radius);
+    }
+      getCircumference(){
+      return 2*(3.14)*this.radius;
+    }
+  }
+  c=new Circle();
+  c.setRadius(4);
+  console.log(c.getRadius());
+  c.setColor('red');
+  console.log(c.getColor());
+  console.log(c.toString());
+  console.log(c.getArea());
+  console.log(c.getCircumference());
+    </script>
+  </body>
+</html>

@@ -12,5 +12,6 @@ function compareObjects(obj1,obj2) {
         }
     }
     return true;
+    
 }
 console.log(compareObjects(obj1,obj2));

@@ -1,0 +1,23 @@
+input[type="text"]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 15px 0;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    width: 100%;
+    background-color: green;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border:none;
+    border-radius: 6px;
+    cursor:pointer;
+}
+
+button[type="submit"]:hover {
+    background: #45a049;
+}

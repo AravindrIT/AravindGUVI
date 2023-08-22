@@ -2,9 +2,11 @@
 function App() {
   
   return (
-    <>
-          <h1> Aravind React </h1>
-    </>
+   <div id="main" className="container">
+    <label htmlFor="name">Name</label>
+    <input id="name" type="text"></input>
+    <h1>Aravind R</h1>
+   </div>
   )
 }
 

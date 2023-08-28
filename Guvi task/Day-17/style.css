@@ -1,17 +1,17 @@
 .container {
     align-content: center;
-    background-color: rgb(54, 73, 73);
+    background-color: rgb(207, 49, 28);
 
 }
 
 .card {
-    background-image: linear-gradient(to right, rgb(153, 161, 117), rgba(18, 21, 44, 0.897));
+    background-image: linear-gradient(to right, rgb(202, 238, 44), rgba(18, 21, 44, 0.897));
     margin: 10px;
 }
 
 .card-title {
     color: white;
-    background-color: rgba(0, 0, 0, 0.897);
+    background-color: rgba(248, 241, 241, 0.979);
     padding: 10px;
 }
 
@@ -25,7 +25,7 @@
 
 button {
     margin-left: 65px;
-    color: aliceblue;
+    color: red;
 }
 
 .card-img-top {
@@ -33,5 +33,5 @@ button {
 }
 
 #links {
-    color: white;
+    color: blue;
 }

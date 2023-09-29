@@ -38,14 +38,14 @@ if (!fs.existsSync(outputFolder)) {
 });
 
 app.get("/getFiles", (req, res) => {
-    fs.readdir(outputFolder, (err, files) => {
-      if (err) {
-        res.status(500).send(`Error reading directory: ${err}`);
-        return;
-      }
-      console.log("files", files);
-      const textFiles = files.filter((file) => path.extname(file) === ".txt");
-  
-      res.json(textFiles);
-    });
+  fs.readdir(outputFolder, (err, files) => {
+    if (err) {
+      res.status(500).send(`Error reading directory: ${err}`);
+      return;
+    }
+    console.log("files", files);
+    const textFiles = files.filter((file) => path.extname(file) === ".txt");
+
+    res.json(textFiles);
   });
+});

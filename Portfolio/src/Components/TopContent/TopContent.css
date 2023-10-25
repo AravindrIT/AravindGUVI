@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Text&family=Montserrat:wght@300;600&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Text&family=Montserrat:wght@300;600&family=Poppins&display=swap');
+
+.topcontent {
+    color: white;
+}
+
+.topcontent-container {
+    position: absolute;
+    top: 300px;
+    right: 150px; 
+}
+
+.topcontent-container > p {
+    letter-spacing: 1px;
+    text-align: left;
+    padding-left: 3px;
+    padding-top: 20px;
+}
+
+.topcontent-container > a > button {
+    margin-top: 0px;
+    text-align: left;
+    margin-left: 0px;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+}
+
+.topcontent-container > h1 {
+    font-size: 50px;
+    font-family: "Montseerat",sans-serif;
+}
+
+.topcontent-downloadButton {
+    color: black;
+    background-color: #2CD3E1;
+    font-size: 14px;
+    padding: 10px 30px;
+    font-family: 'Montseerat',sans-serif;
+    font-weight: 300;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-top: 0;
+}
+
+
+.topcontent-workButton {
+    color: white;
+    border: 1px solid white !important;
+    background-color: transparent;
+    font-size: 14px;
+    padding: 9px 45px;
+    font-family: 'Montseerat',sans-serif;
+    font-weight: 300;
+    cursor: pointer;
+}  
+
+.topcontent-downloadButton:hover {
+    color: #2CD3E1;
+    background-color: white;
+    font-weight: 500;
+}
+
+.topcontent-workButton:hover {
+    color: black;
+    background-color: white;
+    font-weight: 500;
+}
